@@ -1,0 +1,25 @@
+{
+  "name": "legacyminecraftskins",
+  "version": "1.0.0",
+  "description": "Legacy Minecraft Skins fix via effectively mocking the old HTTP service",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dussed/LegacyMinecraftSkins.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dussed/LegacyMinecraftSkins/issues"
+  },
+  "homepage": "https://github.com/Dussed/LegacyMinecraftSkins#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "koa": "^2.13.0",
+    "koa-router": "^10.0.0",
+    "nodemon": "^2.0.6"
+  }
+}
